@@ -4,8 +4,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 
 TELEGRAM_TOKEN = "8214956306:AAFM1k0QD4J4clTOXPSJRGdWNEOAL7MRA0U"
 OPENAI_KEY = "c8OXR9tWFwD8qc1cE62dX1TcSRbahyld6udSd_xbc0xBwNg1jFC35HITNbFEU8CRRUniVSg3VkT3BlbkFJUXLFYwwqxweiI4cqBHlpxvOVCcaj8dNH0vRz2WQCWUykjf_Gf1JBJ-7IPXGaY6In9vMbgLYx4A"
-"
-
 openai.api_key = OPENAI_KEY
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
